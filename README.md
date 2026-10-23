@@ -91,15 +91,12 @@ The image must be published to a registry accessible by your cluster before depl
 - Add Prometheus and Grafana for monitoring.
 - Add a rollback demonstration and document the results.
 
-## CV description (use after you have run and verified the project)
 
 **End-to-End DevOps CI/CD Pipeline**
 - Built a Flask application with unit tests and a health endpoint.
 - Containerized the application using Docker and Docker Compose.
 - Created a Jenkins pipeline for testing, image building, and container smoke testing.
-- Prepared Kubernetes Deployment and Service manifests with readiness/liveness probes and resource requests/limits.
-
-## Safety notes
+- Prepared Kubernetes Deployment and Service manifests with readiness/liveness probes and resource requests/limit
 
 Never commit passwords, access keys, tokens, or private credentials.
 Do not claim cloud deployment or automated registry publishing until you have implemented and tested those parts.
