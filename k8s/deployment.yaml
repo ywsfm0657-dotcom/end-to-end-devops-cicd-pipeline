@@ -16,8 +16,8 @@ spec:
     spec:
       containers:
         - name: web
-          # Replace with your published registry image before deploying.
-          image: YOUR_DOCKERHUB_USERNAME/devops-demo-app:latest
+          
+          image: Mahmoud0657/devops-demo-app:latest
           ports:
             - containerPort: 5000
           readinessProbe:
